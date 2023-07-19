@@ -58,3 +58,17 @@ header img{
 .menu color{
     background-color: rgb(241, 241, 209);
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+.contenedor img{
+      display: block;
+      margin: 0 auto;
+}
