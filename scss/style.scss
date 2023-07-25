@@ -1,0 +1,45 @@
+// comentario en sass
+/* comentario en sass y css */
+
+// import de variables
+
+@import "extra/variables";
+// segunda utilidad de sass import
+@import "extra/home";
+@import "extra/variables";
+
+
+// primer utilidad de sass
+// nesting
+
+header{
+    background-color: $color-principal;
+    display: flex;
+    justify-content: center;
+    h1{
+        color: $color-secundario;
+        font-size: 2rem;
+    }
+    nav{
+        display: flex;
+        ul{
+           li{
+            color: rgb(223, 173, 182);
+           } 
+        }
+    }
+}
+
+// estilos para el contenedor de las imagenes
+
+.img-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+// estilos para cada imagen
+
+.img{
+    width: 200px;
+    height: auto;
+}

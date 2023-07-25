@@ -1,74 +1,50 @@
-/* reset */
+/* comentario en sass y css */
+.img-container {
+  display: flex;
+  justify-content: space-between; }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+.img {
+  width: 200px;
+  height: auto; }
 
-/* estilos generales */
+/* estilos de html home */
+.img-container {
+  display: flex;
+  justify-content: space-between; }
 
-body{
-    background-color: rgb(241, 241, 218);
-}
+.img {
+  width: 200px;
+  height: auto; }
 
-header{
-    padding: 10px;
-    text-align: center;
-}
+.header-home {
+  background-color: #fadaee;
+  display: flex;
+  justify-content: center; }
 
-header nav{
-    margin-top: 20px;
-}
+.img-container {
+  display: flex;
+  justify-content: space-between; }
 
-header nav ul li{
-    background-color: beige;
-    display: inline-block;
-    padding: 10px;
-}
+.img {
+  width: 200px;
+  height: auto; }
 
-a{
-    text-decoration: none;
-    color: black;
-}
+header {
+  background-color: #DEAEAF;
+  display: flex;
+  justify-content: center; }
+  header h1 {
+    color: #e0ad76;
+    font-size: 2rem; }
+  header nav {
+    display: flex; }
+    header nav ul li {
+      color: #dfadb6; }
 
-/* estilos de home */
+.img-container {
+  display: flex;
+  justify-content: space-between; }
 
-main{
-    text-align: center;
-}
-
-main h1{
-    margin-bottom: 20px;
-}
-
-main p{
-    font-size: 25px;
-    margin-bottom: 20px;
-}
-
-/* propiedades para img */
-
-header img{
-    width: 100%;
-    height: auto;
-    display: inline-block;
-}
-
-.menu color{
-    background-color: rgb(241, 241, 209);
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
-
-.contenedor{
-    text-align: center;
-}
-
-.contenedor img{
-      display: block;
-      margin: 0 auto;
-}
+.img {
+  width: 200px;
+  height: auto; }
