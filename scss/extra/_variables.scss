@@ -1,19 +1,26 @@
 // paleta de colores
 
-$color-principal: #DEAEAF;
+$color-principal: #D1BDC1;
 $color-secundario: hsl(31, 63%, 67%);
 
 // estilos para el contenedor de las imagenes
 
 .img-container{
-    display: flex;
-    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 // estilos para cada imagen
 
-.img{
-    width: 200px;
-    height: auto;
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+
 

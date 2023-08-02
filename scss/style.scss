@@ -9,13 +9,21 @@
 @import "extra/variables";
 
 
+
 // primer utilidad de sass
 // nesting
 
-header{
+header.container{
     background-color: $color-principal;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
+
+
+
     h1{
         color: $color-secundario;
         font-size: 2rem;
@@ -30,16 +38,28 @@ header{
     }
 }
 
+
 // estilos para el contenedor de las imagenes
 
 .img-container{
-    display: flex;
-    justify-content: space-between;
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
 }
 
 // estilos para cada imagen
 
-.img{
-    width: 200px;
-    height: auto;
+.img-container img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
