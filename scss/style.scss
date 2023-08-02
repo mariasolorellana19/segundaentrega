@@ -13,53 +13,70 @@
 // primer utilidad de sass
 // nesting
 
-header.container{
-    background-color: $color-principal;
-    display: flex;
-    justify-content: space-evenly;
-    width: 90%;
-    margin: 0 auto;
-    height: 70px;
-    align-items: center;
 
-
-
-    h1{
-        color: $color-secundario;
-        font-size: 2rem;
-    }
-    nav{
+// estilos para mis links
+header{
+    .navbar-nav{
+        width: 50%;
         display: flex;
-        ul{
-           li{
-            color: rgb(223, 173, 182);
-           } 
-        }
+        justify-content: space-between;
+        margin: auto;
+        
     }
-}
+    a{
+        color: #896B71;
+        text-decoration: none;
+    }
+}  
 
 
 // estilos para el contenedor de las imagenes
 
-.img-container{
+.imagen-container{
     height: 90%;
-    width: 90%;
-    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
-    
+    img{
+        width: 100%;
+        height: 90%;
+        object-fit: cover; 
+    }
 }
 
 // estilos para cada imagen
 
-.img-container img{
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-}
+
 
 body, html{
     margin: 0;
     padding: 0;
     height: 100%;
 }
+
+.caja{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    img{
+        width: 100%;
+        height: 400px;
+
+    }
+}
+
+.title{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parrafo-contenedor{
+    text-align: center;
+    text-decoration: none;
+}
+
+
