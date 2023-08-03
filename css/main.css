@@ -87,3 +87,10 @@ body, html {
 .parrafo-contenedor {
   text-align: center;
   text-decoration: none; }
+
+div .title {
+  text-align: center; }
+
+.parrafo p {
+  text-align: center;
+  text-decoration: none; }
