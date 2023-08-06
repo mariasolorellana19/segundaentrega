@@ -106,14 +106,6 @@ div .title {
   text-align: center;
   text-decoration: none; }
 
-.peinados {
-  gap: 10px;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  margin: 0 auto; }
-
 .carousel-item {
   justify-content: center;
   width: 100%;
